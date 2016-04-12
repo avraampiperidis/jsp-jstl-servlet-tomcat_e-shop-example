@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/bookstore">
+
+<Resource name="jdbc/bookstoredb" auth="Container" type="javax.sql.DataSource"
+               maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+               username="username" password="password" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://127.0.0.1/bookstoredb"/>
+</Context>
